@@ -1,12 +1,24 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      const onsuccess = () => console.log("[Service Worker] Registered");
+      const onfailure = () => console.log("[Service Worker] Failed");
+
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(onsuccess)
+        .catch(onfailure);
+    }
+  }, []);
   return (
     <>
       <Head>
         <title>Pomodoro App</title>
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/manifest.json" />
         <link
           rel="icon"
           type="image/png"

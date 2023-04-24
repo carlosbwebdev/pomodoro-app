@@ -1,13 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
 body {
+  font-family: "Playfair Display", serif;
+  width: 100vw;
+  height: 100vh;
   -webkit-tap-highlight-color: transparent;
+  background-color: rgb(220 38 38);
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
-@media screen and (display-mode: standalone) {
-  nav {
-    height: 88px !important;
+.arrow {
+  position: absolute;
+  top: 2%;
+  right: 15%;
+}
+
+.arrow p {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
