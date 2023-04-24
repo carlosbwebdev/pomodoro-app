@@ -1,0 +1,90 @@
+{
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Pomodoro App",
+  "short_name": "Pomodoro",
+  "description": "A Pomodoro app is a productivity tool designed to help users manage their time more effectively. The Pomodoro technique is a time management method developed by Francesco Cirillo in the late 1980s, which involves breaking down work into intervals of 25 minutes, separated by short breaks.",
+  "icons": [
+    {
+      "src": "/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "apple": {
+    "splash": [
+      {
+        "src": "/apple-splash/apple-splash-2048-2732.jpg",
+        "media": "(device-width: 1024px) and (device-height: 1366px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2732-2048.jpg",
+        "media": "(device-width: 1024px) and (device-height: 1366px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-1668-2388.jpg",
+        "media": "(device-width: 834px) and (device-height: 1112px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2388-1668.jpg",
+        "media": "(device-width: 834px) and (device-height: 1112px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-1668-2224.jpg",
+        "media": "(device-width: 834px) and (device-height: 1194px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2224-1668.jpg",
+        "media": "(device-width: 834px) and (device-height: 1194px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-1536-2048.jpg",
+        "media": "(device-width: 768px) and (device-height: 1024px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2048-1536.jpg",
+        "media": "(device-width: 768px) and (device-height: 1024px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-1242-2688.jpg",
+        "media": "(device-width: 414px) and (device-height: 896px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2688-1242.jpg",
+        "media": "(device-width: 414px) and (device-height: 896px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-1125-2436.jpg",
+        "media": "(device-width: 375px) and (device-height: 812px) and (orientation: portrait)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-2436-1125.jpg",
+        "media": "(device-width: 375px) and (device-height: 812px) and (orientation: landscape)"
+      },
+      {
+        "src": "/apple-splash/apple-splash-828-1792.jpg",
+        "media": "(device-width: 414px) and (device-height: 896px) and (orientation: portrait)"
+      }
+    ]
+  }
+}
