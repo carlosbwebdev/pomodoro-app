@@ -5,3 +5,9 @@
 body {
   -webkit-tap-highlight-color: transparent;
 }
+
+@media screen and (display-mode: standalone) {
+  nav {
+    height: 88px !important;
+  }
+}
